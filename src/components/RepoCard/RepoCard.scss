@@ -1,0 +1,34 @@
+.Repo {
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    max-width: 620px;
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 120%;
+        color: #000000;
+        text-transform: uppercase;
+    }
+    &__stars,
+    &__date {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #000000;
+    }
+    &__link {
+        background: #3f3f3f;
+        border-radius: 6px;
+        padding: 9px 15px;
+        a {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 120%;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+    }
+}

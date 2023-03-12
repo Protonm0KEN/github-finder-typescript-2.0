@@ -1,0 +1,43 @@
+.UserCard {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 13px 31px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    &__left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        .link-to-github {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 120%;
+            color: #ffffff;
+        }
+    }
+    &__right {
+        padding: 7px;
+    }
+    &__button {
+        background: #3f3f3f;
+        border-radius: 6px;
+        padding: 9px 15px;
+    }
+    &__avatar {
+        border: 1px solid #3f3f3f;
+        border-radius: 6px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+    &__login, &__repos, &__created-at, &__followers, &__following {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 120%;
+        color: #3f3f3f;
+        span{
+            font-weight: 400
+        }
+    }
+}
